@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-mybaits" />
         <module name="springboot-mybaits" />
+        <module name="springboot-redis" />
         <module name="sringboot-jpa" />
       </profile>
     </annotationProcessing>

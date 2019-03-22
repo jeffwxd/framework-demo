@@ -33,4 +33,8 @@ public class OrderController {
                                 @RequestParam("size") @ApiParam(value = "分页大小", required = true) @NotNull @Min(1) Integer size){
         return orderService.getList(beginTime,endTime,merchIds,merchName,page,size);
     }
+
+    public static void main(String[] args) {
+        System.out.println(System.currentTimeMillis());
+    }
 }

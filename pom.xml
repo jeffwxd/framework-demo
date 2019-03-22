@@ -11,6 +11,7 @@
     <modules>
         <module>spring-mybaits</module>
         <module>sringboot-jpa</module>
+        <module>springboot-redis</module>
     </modules>
     <properties>
         <!--系统配置-->
