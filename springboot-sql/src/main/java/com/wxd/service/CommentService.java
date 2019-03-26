@@ -7,6 +7,7 @@ import com.wxd.repository.CommentRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;
 
@@ -19,8 +20,11 @@ public class CommentService {
     @Autowired
     private CommentRepository commentRepository;
 
+    @Transactional
     public void postComment(Long articleId, String content) {
-        Optional<Article> articleOptional = articleRepository.findById(articleId);
+       // Optional<Article> articleOptional = articleRepository.findById(articleId);
+        Optional<Article> articleOptional = articleRepository.findArticleForUpdate(articleId);
+        //Optional<Article> articleOptional = articleRepository.findArticleWithPessimisticLock(articleId);
         if (!articleOptional.isPresent()) {
             throw new RuntimeException("没有对应的文章");
         }

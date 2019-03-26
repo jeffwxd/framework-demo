@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 
@@ -14,6 +15,7 @@ public class CommentControllerTests {
     @Autowired
     private TestRestTemplate testRestTemplate;
 
+    @Transactional
     @Test
     public void concurrentComment() {
         String url = "http://localhost:9090/comment";
