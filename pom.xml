@@ -13,6 +13,7 @@
         <module>sringboot-jpa</module>
         <module>springboot-redis</module>
         <module>springcloud</module>
+        <module>springboot-sql</module>
     </modules>
     <properties>
         <!--系统配置-->

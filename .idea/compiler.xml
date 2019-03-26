@@ -10,6 +10,7 @@
         <module name="spring-mybaits" />
         <module name="springboot-mybaits" />
         <module name="springboot-redis" />
+        <module name="springboot-sql" />
         <module name="springcloud-eureka" />
         <module name="springcloud-feign" />
         <module name="springCloud-gateway" />
