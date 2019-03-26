@@ -1,0 +1,16 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active: path_route
+
+---
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: path_route
+        uri: https://www.baidu.com/
+        predicates:
+        - Path=/foo/{segment}
+  profiles: path_route

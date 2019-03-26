@@ -12,6 +12,7 @@
         <module>spring-mybaits</module>
         <module>sringboot-jpa</module>
         <module>springboot-redis</module>
+        <module>springcloud</module>
     </modules>
     <properties>
         <!--系统配置-->
