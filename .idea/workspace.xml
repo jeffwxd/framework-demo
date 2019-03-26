@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9c4baaa-17ad-4e80-ae6f-8d800d87d7c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-sql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/LockAndTransactionApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/entity/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/entity/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/repository/ArticleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-sql/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-sql/src/test/java/CommentControllerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/swagger/SwaggerConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud/springCloud-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/springCloud-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud/springCloud-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/springCloud-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sql/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sql/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sql/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sql/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sql/target/classes/com/wxd/controller/CommentController.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-mybaits/target/" />
@@ -62,23 +52,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Article.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/entity/Article.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="875">
+              <caret line="105" column="29" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Comment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/entity/Comment.java">
+      <file leaf-file-name="SwaggerConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/swagger/SwaggerConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="735">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,8 +76,8 @@
       <file leaf-file-name="CommentControllerTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-sql/src/test/java/CommentControllerTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="303">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,32 +88,8 @@
       <file leaf-file-name="CommentController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/controller/CommentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/repository/ArticleRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/repository/CommentRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="110">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,14 +109,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommentService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CommentService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/service/CommentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="669">
+              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrudRepository.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/maven-repository/org/springframework/data/spring-data-commons/2.1.5.RELEASE/spring-data-commons-2.1.5.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -167,11 +139,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="44">
+              <caret line="2" column="132" selection-start-line="2" selection-start-column="132" selection-end-line="2" selection-end-column="132" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud/Springcloud-Zuul/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -221,13 +202,14 @@
         <option value="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/entity/Article.java" />
         <option value="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/sevice/CommentService.java" />
         <option value="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/service/CommentService.java" />
-        <option value="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/controller/CommentController.java" />
         <option value="$PROJECT_DIR$/springboot-sql/src/test/java/CommentControllerTests.java" />
         <option value="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/LockAndTransactionApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-sql/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/repository/CommentRepository.java" />
         <option value="$PROJECT_DIR$/springboot-sql/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/repository/ArticleRepository.java" />
+        <option value="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/swagger/SwaggerConfiguration.java" />
+        <option value="$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/controller/CommentController.java" />
+        <option value="$PROJECT_DIR$/springboot-sql/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -338,26 +320,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wxd" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-sql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wxd" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-sql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wxd" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -367,26 +329,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-sql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-sql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -426,7 +368,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CommentControllerTests.concurrentComment">
+  <component name="RunManager" selected="Spring Boot.LockAndTransactionApplication">
     <configuration name="OrderController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.demo01.controller.OrderController" />
       <module name="sringboot-jpa" />
@@ -486,6 +428,16 @@
       <module name="springcloud-feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wubida.FeignApplication" />
     </configuration>
+    <configuration name="LockAndTransactionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wxd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxd.LockAndTransactionApplication" />
+    </configuration>
     <configuration name="ProviderRun_03" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud-provider03" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wubida.ProviderRun_03" />
@@ -539,9 +491,11 @@
       <item itemvalue="Spring Boot.FeignApplication" />
       <item itemvalue="Spring Boot.EurekaServerRunApplication" />
       <item itemvalue="JUnit.CommentControllerTests.concurrentComment" />
+      <item itemvalue="Spring Boot.LockAndTransactionApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.LockAndTransactionApplication" />
         <item itemvalue="JUnit.CommentControllerTests.concurrentComment" />
         <item itemvalue="Application.OrderController" />
       </list>
@@ -585,9 +539,15 @@
     <history-entry file="CommentControllerTests_concurrentComment - 2019.03.26 at 15h 42m 11s.xml">
       <configuration name="CommentControllerTests.concurrentComment" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CommentControllerTests_concurrentComment - 2019.03.26 at 15h 50m 27s.xml">
+      <configuration name="CommentControllerTests.concurrentComment" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommentControllerTests_concurrentComment - 2019.03.26 at 15h 53m 02s.xml">
+      <configuration name="CommentControllerTests.concurrentComment" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9904000" />
+    <option name="totallyTimeSpent" value="12100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -615,7 +575,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991276" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -665,27 +625,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sringboot-jpa/src/main/java/com/example/demo01/utils/OrSpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mybaits/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sringboot-jpa/src/main/java/com/example/demo01/swagger/config/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sringboot-jpa/src/main/java/com/example/demo01/Demo01Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -937,34 +876,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="105" column="29" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/entity/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/LockAndTransactionApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1015,26 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-sql/src/test/java/CommentControllerTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/controller/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Optional.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1042,13 +937,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/service/CommentService.java">
+    <entry file="file://$PROJECT_DIR$/springcloud/Springcloud-Zuul/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sql/src/test/java/CommentControllerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="105" column="29" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/LockAndTransactionApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/swagger/SwaggerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven-repository/org/springframework/data/spring-data-commons/2.1.5.RELEASE/spring-data-commons-2.1.5.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/java/com/wxd/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sql/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="132" selection-start-line="2" selection-start-column="132" selection-end-line="2" selection-end-column="132" />
         </state>
       </provider>
     </entry>
