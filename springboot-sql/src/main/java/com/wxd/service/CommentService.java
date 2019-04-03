@@ -1,14 +1,13 @@
 package com.wxd.service;
 
 import com.wxd.entity.Article;
-import com.wxd.entity.Comment;
 import com.wxd.repository.ArticleRepository;
 import com.wxd.repository.CommentRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
+import javax.transaction.Transactional;
 import java.util.Optional;
 
 @Slf4j
@@ -30,12 +29,14 @@ public class CommentService {
         }
         Article article = articleOptional.get();
 
-        Comment comment = new Comment();
+        /*Comment comment = new Comment();
         comment.setArticleId(articleId);
         comment.setContent(content);
         commentRepository.save(comment);
 
-        article.setCommentCount(article.getCommentCount() + 1);
+        article.setCommentCount(article.getCommentCount() + 1);*/
+        int count = articleRepository.updateArticleWithVersion(article.getId(), article.getCommentCount() + 1, article.getVersion());
+        if (count == 0) { throw new RuntimeException("服务器繁忙,更新数据失败"); }
         articleRepository.save(article);
     }
 }
