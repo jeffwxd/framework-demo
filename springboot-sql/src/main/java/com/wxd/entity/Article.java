@@ -17,7 +17,4 @@ public class Article {
     private String title;
 
     private Long commentCount;
-
-    private Long version;
-
 }
