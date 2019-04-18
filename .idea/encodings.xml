@@ -3,6 +3,7 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mybaits" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-rabbitMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-sql" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud" charset="UTF-8" />

@@ -9,6 +9,7 @@
         <module name="spirngcloud-ribbon-client" />
         <module name="spring-mybaits" />
         <module name="springboot-mybaits" />
+        <module name="springboot-rabbitMQ" />
         <module name="springboot-redis" />
         <module name="springboot-sql" />
         <module name="springcloud-eureka" />
