@@ -2,7 +2,11 @@ package com.wxd.receiver;
 
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.messaging.handler.annotation.Headers;
+import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
+
+import java.util.Map;
 
 @Component
 @RabbitListener(queues = "q_topic_message")
@@ -12,4 +16,11 @@ public class Receiver1 {
     public void process(String hello) {
         System.out.println("Receiver1  : " + hello);
     }
+    @RabbitListener(queues = "q_topic_message")
+    public void processMessage1(@Payload String body, @Headers Map<String,Object> headers) {
+        System.out.println("body："+body);
+        System.out.println("Headers："+headers);
+    }
+
+
 }
