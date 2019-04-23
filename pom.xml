@@ -15,6 +15,7 @@
         <module>springcloud</module>
         <module>springboot-sql</module>
         <module>springboot-rabbitMQ</module>
+        <module>java8-test</module>
     </modules>
     <properties>
         <!--系统配置-->
