@@ -6,9 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="java8-test" />
+        <module name="spirngcloud-ribbon-client" />
         <module name="spring-mybaits" />
         <module name="springboot-mybaits" />
+        <module name="springboot-rabbitMQ" />
         <module name="springboot-redis" />
+        <module name="springboot-sql" />
+        <module name="springcloud-eureka" />
+        <module name="springcloud-feign" />
+        <module name="springCloud-gateway" />
+        <module name="springcloud-provider" />
+        <module name="springcloud-provider02" />
+        <module name="springcloud-provider03" />
+        <module name="Springcloud-Zuul" />
         <module name="sringboot-jpa" />
       </profile>
     </annotationProcessing>

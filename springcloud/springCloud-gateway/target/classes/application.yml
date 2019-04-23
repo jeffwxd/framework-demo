@@ -1,0 +1,27 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active: after_route
+
+---
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: path_route
+        uri: https://www.baidu.com/
+        predicates:
+        - Path=/foo/{segment}
+  profiles: path_route
+
+---
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: after_route
+        uri: https://www.baidu.com/
+        predicates:
+        - After=2010-01-20T17:42:47.789-07:00[America/Denver]
+    profiles: after_route

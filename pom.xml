@@ -12,6 +12,10 @@
         <module>spring-mybaits</module>
         <module>sringboot-jpa</module>
         <module>springboot-redis</module>
+        <module>springcloud</module>
+        <module>springboot-sql</module>
+        <module>springboot-rabbitMQ</module>
+        <module>java8-test</module>
     </modules>
     <properties>
         <!--系统配置-->
@@ -90,20 +94,20 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.16.18</version>
+            <version>1.18.0</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.21</version>
-        </dependency>
+        </dependency>-->
 
-        <dependency>
+       <!-- <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid-spring-boot-starter</artifactId>
             <version>1.1.10</version>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
     <dependencyManagement>
