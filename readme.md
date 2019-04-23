@@ -39,7 +39,6 @@
 
 7 就是懒管理系统 - 商户管理    WEB端
 
-https://wshop.t.jiabangou.com/   1000   admin   111111
 
 
 wbd-open-parent
