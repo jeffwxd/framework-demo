@@ -28,10 +28,10 @@ public class OrderServiceImpl implements OrderService {
                                        Collection<Long> merchIds, String merchName, Integer page, Integer size){
         SpecificationBuilder<OrderEntity> builder = SpecificationBuilder.builder();
         //添加查询条件
-        builder.when(!CollectionUtils.isEmpty(merchIds), o->  o.in(OrderEntity.FIELD_MERCH_ID, merchIds))
-                .ge(OrderEntity.FIELD_FINISHED_TIME, beginTime)
-                .le(OrderEntity.FIELD_FINISHED_TIME, endTime)
-                .when(StringUtils.isNotBlank(merchName), o -> o.like(OrderEntity.FIELD_MERCH_NAME, "%" + merchName + "%"));
+        builder.when(!CollectionUtils.isEmpty(merchIds), o->  o.in(OrderEntity.Fields.merchId, merchIds))
+                .ge(OrderEntity.Fields.finishedTime, beginTime)
+                .le(OrderEntity.Fields.finishedTime, endTime)
+                .when(StringUtils.isNotBlank(merchName), o -> o.like(OrderEntity.Fields.merchName, "%" + merchName + "%"));
         //根据完成时间排序
         Sort sort = new Sort(Sort.Direction.DESC, "finishedTime");
         PageRequest pageData = PageRequest.of(page, size, sort);

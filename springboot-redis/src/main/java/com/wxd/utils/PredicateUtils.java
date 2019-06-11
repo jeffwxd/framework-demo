@@ -1,4 +1,6 @@
-package com.example.demo01.utils;
+package com.wxd.utils;
+
+import com.example.demo01.utils.FilterConstants;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.Path;

@@ -1,5 +1,8 @@
-package com.example.demo01.utils;
+package com.wxd.utils;
 
+import com.example.demo01.utils.AndSpecification;
+import com.example.demo01.utils.FilterConstants;
+import com.example.demo01.utils.OrSpecification;
 import org.springframework.data.jpa.domain.Specification;
 
 import javax.persistence.criteria.Path;
