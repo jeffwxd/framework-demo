@@ -20,10 +20,10 @@ public class CommentService {
     @Autowired
     private CommentRepository commentRepository;
 
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     public void postComment(Long articleId, String content) {
-       // Optional<Article> articleOptional = articleRepository.findById(articleId);
-        Optional<Article> articleOptional = articleRepository.findArticleForUpdate(articleId);
+        Optional<Article> articleOptional = articleRepository.findById(articleId);
+        //Optional<Article> articleOptional = articleRepository.findArticleForUpdate(articleId);
         //Optional<Article> articleOptional = articleRepository.findArticleWithPessimisticLock(articleId);
         if (!articleOptional.isPresent()) {
             throw new RuntimeException("没有对应的文章");
@@ -35,7 +35,12 @@ public class CommentService {
         comment.setContent(content);
         commentRepository.save(comment);
 
+
         article.setCommentCount(article.getCommentCount() + 1);
-        articleRepository.save(article);
+        int count = articleRepository.updateArticleWithVersion(article.getId(), article.getCommentCount() + 1, article.getVersion());
+        if (count == 0) {
+            throw new RuntimeException("服务器繁忙,更新数据失败");
+        }
+       // articleRepository.save(article);
     }
 }

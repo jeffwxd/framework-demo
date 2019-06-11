@@ -1,6 +1,6 @@
 package com.wxd.service.impl;
 
-import com.example.demo01.utils.SpecificationBuilder;
+import com.wxd.utils.SpecificationBuilder;
 import com.wxd.dao.OrderResponsitory;
 import com.wxd.entity.OrderEntity;
 import com.wxd.model.OrderBo;
