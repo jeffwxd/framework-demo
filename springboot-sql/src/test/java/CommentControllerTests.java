@@ -14,7 +14,7 @@ public class CommentControllerTests {
     @Autowired
     private TestRestTemplate testRestTemplate;
 
-    //@Transactional
+
     @Test
     public void concurrentComment() {
         String url = "http://localhost:9090/comment";

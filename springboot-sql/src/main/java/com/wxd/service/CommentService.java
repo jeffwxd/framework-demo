@@ -35,12 +35,12 @@ public class CommentService {
         comment.setContent(content);
         commentRepository.save(comment);
 
-
-        article.setCommentCount(article.getCommentCount() + 1);
         int count = articleRepository.updateArticleWithVersion(article.getId(), article.getCommentCount() + 1, article.getVersion());
         if (count == 0) {
             throw new RuntimeException("服务器繁忙,更新数据失败");
         }
+        article.setCommentCount(article.getCommentCount() + 1);
+        articleRepository.save(article);
        // articleRepository.save(article);
     }
 }

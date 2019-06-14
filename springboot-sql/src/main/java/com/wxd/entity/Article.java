@@ -16,5 +16,6 @@ public class Article {
     @Column(name = "comment_count")
     private Long commentCount;
 
+    @Version
     private Long version;
 }
