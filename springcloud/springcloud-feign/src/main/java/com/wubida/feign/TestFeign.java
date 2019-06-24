@@ -8,7 +8,7 @@ public interface TestFeign {
     @RequestMapping(value = "/test")
     String testByFeign();
 
-    public class StringTest {
+     class StringTest {
         public static void main(String[] args) {
             String m = "hello";
             String n = "hello";
