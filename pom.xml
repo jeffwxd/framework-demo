@@ -16,6 +16,7 @@
         <module>springboot-sql</module>
         <module>springboot-rabbitMQ</module>
         <module>java8-test</module>
+        <!--<module>easy-poi</module>-->
     </modules>
     <properties>
         <!--系统配置-->
