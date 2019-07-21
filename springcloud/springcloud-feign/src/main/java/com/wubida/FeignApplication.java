@@ -9,7 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-@EnableHystrix
+//@EnableHystrix
 public class FeignApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FeignApplication.class, args);

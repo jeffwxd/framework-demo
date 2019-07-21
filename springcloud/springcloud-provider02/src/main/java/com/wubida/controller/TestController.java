@@ -17,7 +17,7 @@ public class TestController {
 
     @RequestMapping("/test")
     public String test() {
-        int a = 1/0;
+        //int a = 1/0;
         return appName+"上线测试:"+name+":"+port;
     }
 }
