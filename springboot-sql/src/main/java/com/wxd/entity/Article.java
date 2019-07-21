@@ -2,10 +2,7 @@ package com.wxd.entity;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Data
 @Entity
@@ -16,5 +13,9 @@ public class Article {
 
     private String title;
 
+    @Column(name = "comment_count")
     private Long commentCount;
+
+    @Version
+    private Long version;
 }

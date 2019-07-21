@@ -1,6 +1,6 @@
 package com.wxd.service.impl;
 
-import com.example.demo01.utils.SpecificationBuilder;
+import com.wxd.utils.SpecificationBuilder;
 import com.wxd.dao.OrderResponsitory;
 import com.wxd.entity.OrderEntity;
 import com.wxd.model.OrderBo;
@@ -35,8 +35,8 @@ public class OrderServiceImpl implements OrderService {
         //operations.get()
         SpecificationBuilder<OrderEntity> builder = SpecificationBuilder.builder();
         //添加查询条件
-        builder.ge(OrderEntity.FIELD_FINISHED_TIME, beginTime)
-                .le(OrderEntity.FIELD_FINISHED_TIME, endTime);
+        builder.ge(OrderEntity.Fields.finishedTime, beginTime)
+                .le(OrderEntity.Fields.finishedTime, endTime);
 
         //根据完成时间排序
         Sort sort = new Sort(Sort.Direction.DESC, "finishedTime");

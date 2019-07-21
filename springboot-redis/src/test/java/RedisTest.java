@@ -8,9 +8,9 @@ import org.springframework.data.redis.core.DefaultTypedTuple;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ZSetOperations;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.util.CollectionUtils;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @Author :wxd
@@ -60,5 +60,17 @@ public class RedisTest {
         Set<ZSetOperations.TypedTuple<String>> rangeWithScores = redisTemplate.opsForZSet().reverseRangeWithScores(SCORE_RANK, 0, 10);
         System.out.println("获取到的排行和分数列表:" + JSON.toJSONString(rangeWithScores));
     }
+    @Test
+    public void test01(){
+        Set<String> range = redisTemplate.opsForZSet().reverseRange(SCORE_RANK, 0, 10);
+        System.out.println("获取到的排行列表:" + JSON.toJSONString(range));
+    }
 
+    public static void main(String[] args) {
+        List<RedisTest> list = null;
+        if(CollectionUtils.isEmpty(list)){
+            System.out.println("1111111");
+        }
+        System.out.println(list);
+    }
 }

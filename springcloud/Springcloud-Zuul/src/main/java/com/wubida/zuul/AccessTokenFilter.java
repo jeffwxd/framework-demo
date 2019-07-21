@@ -50,5 +50,9 @@ public class AccessTokenFilter extends ZuulFilter {
 	public String filterType() {
 		return "pre";
 	}
+
+	public static void main(String[] args) {
+		System.out.println(2<<3);
+	}
  
 }

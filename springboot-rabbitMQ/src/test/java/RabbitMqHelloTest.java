@@ -21,7 +21,7 @@ public class RabbitMqHelloTest {
     }
     @Test
     public void oneToMany() throws Exception {
-        for (int i=0;i<100;i++){
+        for (int i=0;i<10;i++){
             helloSender.send(i);
             Thread.sleep(300);
         }
