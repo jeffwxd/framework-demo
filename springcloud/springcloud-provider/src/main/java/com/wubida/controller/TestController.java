@@ -15,7 +15,7 @@ public class TestController {
     @Value("${kd.app.name}")
     String appName;
 
-    @RequestMapping("/test")
+    @RequestMapping("/test1")
     public String test() {
         return appName+"上线测试:"+name+":"+port;
     }
