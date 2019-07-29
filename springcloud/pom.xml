@@ -12,6 +12,8 @@
         <module>Springcloud-Zuul</module>
         <module>springcloud-provider03</module>
         <module>springCloud-gateway</module>
+        <module>springcloud-feign-test01</module>
+        <module>springcloud-feign-parent</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
