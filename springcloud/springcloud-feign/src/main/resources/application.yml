@@ -1,7 +1,7 @@
 #配置服务名称及端口
 spring:
   application:
-    name: springcloud-feign
+    name: sf
 server:
   port: 9005
 #将服务注册到注册中心
@@ -19,5 +19,9 @@ eureka:
 #开启hystrix 指标
 feign:
   hystrix:
+    enabled: true
+  netflix:
+    enabled: true
+  ribbon:
     enabled: true
 

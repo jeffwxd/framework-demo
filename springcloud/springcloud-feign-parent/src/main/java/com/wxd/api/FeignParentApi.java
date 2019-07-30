@@ -2,7 +2,7 @@ package com.wxd.api;
 
 import com.wxd.constants.FeignParentConstant;
 import com.wxd.service.FeignService;
-import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.cloud.openfeign.FeignClient;
 
 /**
  * @Author :wxd

@@ -1,4 +1,4 @@
-package com.wubida.controller;
+package com.wxd.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,7 +15,7 @@ public class TestController {
     @Value("${kd.app.name}")
     String appName;
 
-    @RequestMapping("/test1")
+    @RequestMapping("/test")
     public String test() {
         return appName+"上线测试:"+name+":"+port;
     }

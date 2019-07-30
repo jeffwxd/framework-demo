@@ -1,6 +1,4 @@
-package com.wubida.feign;
-
-import org.springframework.stereotype.Component;
+package com.wxd.feign;
 
 public class TestFeignFallback{
     public String testByFeign() {

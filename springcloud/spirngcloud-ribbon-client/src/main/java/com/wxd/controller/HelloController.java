@@ -1,4 +1,4 @@
-package com.wubida.controller;
+package com.wxd.controller;
 
 import com.wubida.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;

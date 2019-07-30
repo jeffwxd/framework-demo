@@ -1,4 +1,4 @@
-package com.wubida.feign.impl;
+package com.wxd.feign.impl;
 
 import org.springframework.stereotype.Service;
 
