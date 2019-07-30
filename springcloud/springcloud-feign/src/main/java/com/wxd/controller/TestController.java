@@ -1,5 +1,6 @@
 package com.wxd.controller;
 
+import com.wxd.feign.TestFeign01;
 import com.wxd.feign.TestFeignService;
 import com.wxd.service.FeignService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,9 @@ public class TestController {
     TestFeignService testFeign;
 
     @Autowired
+    private TestFeign01 testFeign01;
+
+    @Autowired
     private FeignService feignService;
 
     @RequestMapping(value = "/test")
@@ -22,7 +26,7 @@ public class TestController {
 
     @GetMapping("/hello")
     public String getHello() {
-        return feignService.getName();
+        return testFeign01.getHello();
     }
 
 }

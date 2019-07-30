@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * @Date: Created in 16:05 2019/7/30
  */
 @Configuration
-@EnableFeignClients(basePackages = {"com.wxd.api",})
+@EnableFeignClients(basePackages = {"com.wxd.service",})
 @ConditionalOnMissingClass(value = "com.wxd.ChildApplication")
 public class ParentApplication {
 }
