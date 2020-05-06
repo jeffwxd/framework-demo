@@ -1,5 +1,6 @@
 package com.wxd.controller;
 
+import com.wxd.feign.TestFeign;
 import com.wxd.feign.TestFeign01;
 import com.wxd.feign.TestFeignService;
 import com.wxd.service.FeignService;
@@ -10,23 +11,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-    @Autowired
-    TestFeignService testFeign;
 
     @Autowired
-    private TestFeign01 testFeign01;
-
-    @Autowired
-    private FeignService feignService;
+    TestFeign testFeign;
 
     @RequestMapping(value = "/test")
     public String test() {
-        return testFeign.testByFeign();
+        return testFeign.testByFeign01();
     }
 
-    @GetMapping("/hello")
-    public String getHello() {
-        return testFeign01.getHello();
-    }
 
 }

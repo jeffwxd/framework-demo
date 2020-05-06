@@ -3,10 +3,11 @@ package com.wxd.feign;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@FeignClient(value = "springcloud-provider",fallback = TestFeignFallback.class)
+@FeignClient(value = "springcloud-provider")
 public interface TestFeign {
+
     @RequestMapping(value = "/test")
-    String testByFeign();
+    String testByFeign01();
 
      class StringTest {
         public static void main(String[] args) {
